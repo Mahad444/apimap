@@ -13,7 +13,7 @@ const List = () => {
             <Typography variant="h4">Restaurants,Hotels & Attractions around you</Typography>
             <FormControl className={classes.formControl} >
                 <InputLabel>Type</InputLabel>
-                <Select value={} onChange={} >
+                <Select value={""} onChange={""} >
                     <MenuItem value="restaurants">Restaurants</MenuItem>
                     <MenuItem value="hotels">Hotels</MenuItem>
                     <MenuItem value="attractions">Atrractions</MenuItem>
